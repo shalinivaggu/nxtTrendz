@@ -1,0 +1,45 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.category-list {
+  list-style-type: none;
+  color: #64748b;
+}
+
+.rating-image {
+  width: 70%;
+}
+
+.clear-filters {
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+}
+
+input {
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #f1f5f9;
+  color: #64748b;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
